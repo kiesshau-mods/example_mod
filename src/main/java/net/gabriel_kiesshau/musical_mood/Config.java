@@ -1,4 +1,4 @@
-package net.gabriel_kiesshau.musical_mood_mod;
+package net.gabriel_kiesshau.musical_mood;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;

@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.gabriel_kiesshau.musical_mood.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "musical_mood.refmap.json",
+  "mixins": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "LocalPlayerTickMixin"
+  ]
+}
