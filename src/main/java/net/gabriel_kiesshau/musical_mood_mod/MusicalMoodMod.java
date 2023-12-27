@@ -20,9 +20,7 @@ import org.slf4j.Logger;
 @Mod(MusicalMoodMod.MOD_ID)
 public class MusicalMoodMod
 {
-    // Define mod id in a common place for everything to reference
     public static final String MOD_ID = "musical_mood_mod";
-    // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
 
     public MusicalMoodMod()
@@ -42,7 +40,6 @@ public class MusicalMoodMod
     {
     }
 
-    // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
     }
